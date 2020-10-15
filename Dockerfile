@@ -13,8 +13,8 @@ RUN         apt update \
 				wget=1.20.1-1.1 \
 				ca-certificates=20190110 \
 				libsqlite3-0=3.27.2-3 \
-            && apt clean
-			&& adduser -D -h /home/container container
+            && apt clean \
+	    && adduser -D -h /home/container container
 
 USER        container
 ENV         USER=container HOME=/home/container
