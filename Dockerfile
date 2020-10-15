@@ -9,10 +9,7 @@ MAINTAINER Ankit Patel, <ankit@bmghosting.com>
 # Install Dependencies
 RUN         apt update \
             && apt upgrade -y \
-            && apt-get install -y --no-install-recommends --no-install-suggests \
-				wget=1.20.1-1.1 \
-				ca-certificates=20190110 \
-				libsqlite3-0=3.27.2-3 \
+            && apt install -y wget ca-certificates libsqlite3-0 --install-recommends \
             && apt clean \
 	    && adduser -D -h /home/container container
 
