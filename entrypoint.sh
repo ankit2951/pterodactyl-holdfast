@@ -5,7 +5,7 @@ cd /home/container
 export INTERNAL_IP=`ip route get 1 | awk '{print $NF;exit}'`
 
 # Modify the configuration variables using sed
-pushd holdfastnaw-dedicated/configs
+pushd holdfastnaw-dedicated/configs/
 sed -i "s/^server_name .*/server_name $(printf '%s\n' "$SERVER_NAME" | sed -e 's/[\/&]/\\&/g')/g" "$SERVER_CONFIG_PATH"
 sed -i "s/^maximum_players .*/maximum_players $(printf '%s\n' "$PLAYERS" | sed -e 's/[\/&]/\\&/g')/g" "$SERVER_CONFIG_PATH"
 sed -i "s/^server_welcome_message .*/server_welcome_message $(printf '%s\n' "$MOTD" | sed -e 's/[\/&]/\\&/g')/g" "$SERVER_CONFIG_PATH"
