@@ -7,7 +7,7 @@ Fight on multiple fronts in Holdfast: Nations At War - A competitive multiplayer
 
 # How to import an egg
 
-1. Download egg-holdfast-na-w.json(https://github.com/ankit2951/pterodactyl-holdfast/blob/main/egg-holdfast-na-w.json).
+1. Download [egg-holdfast-na-w.json](https://github.com/ankit2951/pterodactyl-holdfast/blob/main/egg-holdfast-na-w.json).
 > It's easiest to right click the raw button and save as.
 2. In your panel go to the Nests section in the admin part of the panel
 3. Click the green Import Egg button
