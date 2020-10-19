@@ -5,7 +5,7 @@ Fight on multiple fronts in Holdfast: Nations At War - A competitive multiplayer
 
 <img src="https://steamcdn-a.akamaihd.net/steam/apps/589290/capsule_616x353.jpg?t=1600279941" alt="logo" width="300"/></img>
 
-# How to import an egg
+# How to import an egg in [Pterodactyl](https://pterodactyl.io/)
 
 1. Download [egg-holdfast-na-w.json](https://github.com/ankit2951/pterodactyl-holdfast/blob/main/egg-holdfast-na-w.json).
 > It's easiest to right click the raw button and save as.
